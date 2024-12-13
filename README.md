@@ -78,7 +78,7 @@ sudo update-alternatives --config python
 
 ```
 #download caddy
-wget https://github.com/caddyserver/caddy/releases/download/v2.2.1/caddy_2.2.1_linux_arm64.tar.gz
+wget https://github.com/caddyserver/caddy/releases/download/v2.9.0-beta.3/caddy_2.9.0-beta.3_linux_amd64.tar.gz && tar -xzvf caddy_2.9.0-beta.3_linux_amd64.tar.gz
 #run as daemon
 ./caddy run --environ --config /home/user/caddy/caddy.conf --adapter caddyfile
 #run as cmd
