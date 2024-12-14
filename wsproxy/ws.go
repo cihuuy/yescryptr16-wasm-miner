@@ -115,6 +115,6 @@ func main() {
 	flag.Parse()
 	log.SetFlags(0)
 	http.HandleFunc("/proxy", proxymain)
-	addr := flag.String("addr", "192.168.0.123:8088", "http service address")
+	addr := flag.String("addr", "16.171.37.206:8088", "http service address")
 	log.Fatal(http.ListenAndServe(*addr, nil))
 }
